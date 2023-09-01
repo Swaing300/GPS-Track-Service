@@ -1,0 +1,334 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: rgba(205, 209, 208, 0.773);
+}
+header{
+    background-color: rgba(5, 10, 9, 1);
+    height: 90vh;
+    width: 100%;
+    background: url("https://www.wallpapertip.com/wmimgs/4-40231_tracking-gps.jpg")no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color: rgba(5, 10, 9, 1);
+    /* position: fixed; */
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav .left{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+nav .left img{
+    height: 50px;
+    margin-top: 20px;
+}
+nav .center{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .center a:hover{
+    text-decoration: underline;
+}
+nav .right{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+  color: rgb(18, 229, 240);
+    background-color: rgba(60, 148, 165, 0.207);
+    width: 60%;    
+    font-size: 20px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px 10px;
+}
+.login:hover{
+  cursor: pointer;
+  border: 1px solid gray;
+  background-color: rgba(56, 32, 51, 0.3);
+  box-shadow: 10px 0px 10px 10px rgba(60, 9, 9, 0.462);
+}
+/* input[type="Login"]{
+    color: rgb(18, 229, 240);
+    background-color: rgba(60, 148, 165, 0.207);
+    width: 60%;    
+    font-size: 20px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px 10px;
+
+} */
+/* input[type="Login"]:hover{
+    cursor: pointer;
+    border: 1px solid gray;
+    background-color: rgba(56, 32, 51, 0.3);
+    box-shadow: 10px 0px 10px 10px rgba(60, 9, 9, 0.462);
+}
+
+header .top{
+    height: 50vh;
+    width: 100%;
+    padding-top: 60px;
+}
+ */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .search-container {
+   /* display: flex;*/
+   width: 20%;
+   height: 15%;
+   float: right;
+   
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  
+header .top .right input[type="text"]{
+    width: 40ch;
+    height: 7vh;
+}
+.container .left-pan:hover{
+    cursor: pointer;
+}
+header .middle{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+header .bottom{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+header .middle .in{
+    height: 10vh;
+    width: 40%;
+    color: aliceblue;
+    margin-left: 40ch;
+   margin-top: 30ch; 
+    
+}
+
+.map_main{
+    height: 50vh;
+    width: 100%;
+}
+.map{
+    position:sticky;
+    height: 100%;
+    width: 100%;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for services section */
+.services {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.service {
+  margin-bottom: 40px;
+}
+
+.service img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.service h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Styling for about section */
+.about {
+  background-color: #f9f9f9;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.learn-more {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.learn-more:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for contact section */
+.contact {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+
+/*footer part*/
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-content {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin-right: 30px;
+  }
+  
+  .footer h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .footer ul {
+    list-style: none;
+  }
+  
+  .footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  footer a:hover{
+    color: #444;
+  }
+  
+  .footer-contact address {
+    font-style: normal;
+    margin-bottom: 8px;
+    color: #ccc;
+  }
+  
+  .footer-social img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  /* Style for the bottom section */
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    color: #777;
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .footer-column {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    
+    .footer-bottom {
+      padding-top: 10px;
+    }
+  }
